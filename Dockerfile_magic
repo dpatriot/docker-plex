@@ -20,7 +20,7 @@ USER plex
 EXPOSE 32400/tcp
 WORKDIR /opt/plex/Application
 
-ENV PLEX_VERSION 1.2.7.2987-1bef33a
+ENV PLEX_VERSION 1.3.3.3148-b38628e
 # Download QNAP ARMv7-X31+ archive and extract it (https://plex.tv/downloads) https://downloads.plex.tv/plex-media-server/${PLEX_VERSION}/plexmediaserver-ros6-binaries-annapurna_${PLEX_VERSION}_armel.deb
 # https://downloads.plex.tv/codecs/ecd8c57-1099/linux-annapurnatrans-arm7/libaac_encoder.so
 #RUN wget https://downloads.plex.tv/plex-media-server/${PLEX_VERSION}/plexmediaserver-ros6-binaries-annapurna_${PLEX_VERSION}_armel.deb -O /tmp/plex_media_server.deb
